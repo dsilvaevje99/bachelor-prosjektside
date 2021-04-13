@@ -18,6 +18,9 @@ h5 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.centerVertical {
+  margin: auto 0;
+}
 .sectionMarginBottom {
   margin-bottom: 5em;
 }
@@ -181,6 +184,9 @@ h5 {
 }
 #companySection div div img {
   width: 100%;
+}
+#companySection h3 {
+  font-size: 2em;
 }
 
 /*----- Footer -----*/
