@@ -1,8 +1,5 @@
 @media only screen and (max-width: 800px) {
   /* General styles */
-  h5 {
-    font-size: 1.3em;
-  }
   .sectionMarginBottom {
     margin-bottom: 2em;
   }
@@ -84,25 +81,11 @@
     }
   }
 
-  @media only screen and (max-width: 650px) {
-    /*----- Company section -----*/
-    .centerContainer {
-      width: 80%;
-    }
-    #companySection .flexContainer {
-      flex-direction: column-reverse;
-      text-align: center;
-    }
-    #companySection .flexContainer div {
-      width: 100%;
-    }
-    #companySection div div img {
-      width: 50%;
-    }
-    #companySection div div h5 {
-      background-color: rgba(255, 255, 255, 0.5);
-      padding: 1em;
-    }
+  #companySection div div img {
+    margin-top: 5em;
+  }
+  #companySection div div h3 {
+    font-size: 1.3em;
   }
 
   /*----- Footer -----*/

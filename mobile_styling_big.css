@@ -64,6 +64,33 @@
     height: 10em;
   }
 
+  /*----- Company section -----*/
+  #companySection div div img {
+    margin-left: 4em;
+  }
+  @media only screen and (max-width: 950px) {
+    .centerContainer {
+      width: 80%;
+      height: 80%;
+    }
+    #companySection .flexContainer {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+    #companySection .flexContainer div {
+      width: 100%;
+    }
+    #companySection div div img {
+      width: 50%;
+      margin-top: 5em;
+      margin-left: 0;
+    }
+    #companySection div div h3 {
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 1em;
+    }
+  }
+
   /*----- Footer -----*/
   footer {
     font-size: 0.8em;

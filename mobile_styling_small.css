@@ -1,8 +1,5 @@
 @media only screen and (max-width: 400px) {
   /* General styles */
-  h5 {
-    font-size: 1.3em;
-  }
   .sectionMarginBottom {
     margin-bottom: 2em;
   }
