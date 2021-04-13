@@ -133,6 +133,7 @@ html {
 }
 #memberTitle {
   grid-column: 1/5;
+  font-size: 2em;
 }
 .memberProfile {
   text-align: center;

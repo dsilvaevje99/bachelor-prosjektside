@@ -7,11 +7,6 @@
     font-size: 1em;
   }
 
-  /*----- Title section -----*/
-  .titleContainer {
-    font-size: 1em;
-  }
-
   /*----- Documentation section -----*/
   #docSection {
     grid-template-columns: 1fr 1fr;
@@ -48,6 +43,7 @@
   }
   #memberTitle {
     grid-column: 1/3;
+    font-size: 1.5em;
     padding-left: 4em;
   }
   @media only screen and (max-width: 700px) {
