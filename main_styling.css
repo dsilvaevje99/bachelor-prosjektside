@@ -63,6 +63,9 @@ h5 {
 .titleLogo {
   width: 5em;
 }
+.subHeader {
+  font-size: 1.17em;
+}
 
 /*----- Documentation section -----*/
 #docSection {
