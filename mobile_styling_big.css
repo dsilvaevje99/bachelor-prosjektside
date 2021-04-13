@@ -68,11 +68,7 @@
   #companySection div div img {
     margin-left: 4em;
   }
-  @media only screen and (max-width: 950px) {
-    .centerContainer {
-      width: 80%;
-      height: 80%;
-    }
+  @media only screen and (max-width: 870px) {
     #companySection .flexContainer {
       flex-direction: column-reverse;
       text-align: center;
