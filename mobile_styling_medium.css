@@ -1,5 +1,4 @@
-@media only screen and (max-width: 750px) {
-
+@media only screen and (max-width: 800px) {
   /* General styles */
   h5 {
     font-size: 1.3em;
@@ -65,12 +64,20 @@
   .memberProfile p {
     font-size: 1em;
   }
+  .overlay {
+    height: 12em;
+    width: 12em;
+  }
   .memberProfile img {
     padding: 0;
     width: 12em;
     height: 12em;
   }
   @media only screen and (max-width: 500px) {
+    .overlay {
+      height: 10em;
+      width: 10em;
+    }
     .memberProfile img {
       width: 10em;
       height: 10em;
@@ -78,24 +85,24 @@
   }
 
   @media only screen and (max-width: 650px) {
-  /*----- Company section -----*/
-  .centerContainer {
-    width: 80%;
-  }
-  #companySection .flexContainer {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
-  #companySection .flexContainer div {
-    width: 100%;
-  }
-  #companySection div div img {
-    width: 50%;
-  }
-  #companySection div div h5 {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 1em;
-  }
+    /*----- Company section -----*/
+    .centerContainer {
+      width: 80%;
+    }
+    #companySection .flexContainer {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+    #companySection .flexContainer div {
+      width: 100%;
+    }
+    #companySection div div img {
+      width: 50%;
+    }
+    #companySection div div h5 {
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 1em;
+    }
   }
 
   /*----- Footer -----*/
@@ -103,5 +110,4 @@
     font-size: 0.8em;
     padding: 1em 3em;
   }
-
 }

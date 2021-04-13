@@ -1,5 +1,4 @@
 @media only screen and (max-width: 400px) {
-
   /* General styles */
   h5 {
     font-size: 1.3em;
@@ -60,6 +59,10 @@
   .memberProfile p {
     font-size: 0.8em;
   }
+  .overlay {
+    height: 8em;
+    width: 8em;
+  }
   .memberProfile img {
     padding: 0;
     width: 8em;
@@ -90,5 +93,4 @@
     font-size: 0.8em;
     padding: 1em 3em;
   }
-
 }

@@ -1,5 +1,4 @@
 @media only screen and (max-width: 1100px) {
-
   /* General styles */
   h5 {
     font-size: 1.3em;
@@ -53,14 +52,14 @@
       padding-left: 1em;
     }
   }
-  .memberProfile {
-    margin: 0 auto 1em auto;
-  }
   .memberProfile p {
     font-size: 1em;
   }
+  .overlay {
+    height: 10em;
+    width: 10em;
+  }
   .memberProfile img {
-    padding: 0;
     width: 10em;
     height: 10em;
   }
@@ -70,5 +69,4 @@
     font-size: 0.8em;
     padding: 1em 3em;
   }
-
 }
