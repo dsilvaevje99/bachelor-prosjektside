@@ -60,6 +60,9 @@ h5 {
   text-align: center;
   font-size: 2em;
 }
+.titleLogo {
+  width: 5em;
+}
 
 /*----- Documentation section -----*/
 #docSection {
@@ -80,6 +83,7 @@ h5 {
   text-align: center;
   position: relative;
   cursor: pointer;
+  transition: 0.5s ease;
 }
 .docContainer:hover {
   background-color: #20b0a2;
