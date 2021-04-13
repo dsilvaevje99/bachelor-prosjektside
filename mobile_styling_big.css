@@ -1,0 +1,74 @@
+@media only screen and (max-width: 1100px) {
+
+  /* General styles */
+  h5 {
+    font-size: 1.3em;
+  }
+  .sectionMarginBottom {
+    margin-bottom: 2em;
+  }
+  .fullBackImage {
+    height: 80%;
+  }
+  .button {
+    font-size: 0.8em;
+  }
+
+  /*----- Title section -----*/
+  .titleContainer {
+    font-size: 1.3em;
+  }
+
+  /*----- Documentation section -----*/
+  #docSection {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 0 1em;
+    margin-top: -5em;
+  }
+  .docContainer {
+    margin: 0 auto 1em auto;
+    width: 10em;
+    height: 10em;
+  }
+  .docContent {
+    font-size: 1.1em;
+  }
+  .docContent i {
+    font-size: 2em;
+  }
+
+  /*----- Group members section -----*/
+  #memberSection {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    padding: 0 1em;
+  }
+  #memberTitle {
+    grid-column: 1/5;
+    padding-left: 2em;
+  }
+  @media only screen and (max-width: 950px) {
+    #memberTitle {
+      padding-left: 1em;
+    }
+  }
+  .memberProfile {
+    margin: 0 auto 1em auto;
+  }
+  .memberProfile p {
+    font-size: 1em;
+  }
+  .memberProfile img {
+    padding: 0;
+    width: 10em;
+    height: 10em;
+  }
+
+  /*----- Footer -----*/
+  footer {
+    font-size: 0.8em;
+    padding: 1em 3em;
+  }
+
+}

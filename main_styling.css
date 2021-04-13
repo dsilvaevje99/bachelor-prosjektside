@@ -1,0 +1,138 @@
+/* CSS reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+/* General styles */
+h5 {
+  font-size: 2em;
+}
+.centerContainer {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sectionMarginBottom {
+  margin-bottom: 5em;
+}
+.flexContainer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flexContainer div {
+  width: 50%;
+}
+.fullBackImage {
+  margin-top: 0;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.greyText {
+  color: #333333;
+}
+.button {
+  background-color: #333333;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: black;
+}
+.textAlignRight {
+  text-align: right;
+}
+
+/*----- Title section -----*/
+#titleSection {
+  background-image: url("./Images/bannerImage.jpg");
+}
+.titleContainer {
+  text-align: center;
+  font-size: 2em;
+}
+
+/*----- Documentation section -----*/
+#docSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 0 15%;
+  margin-top: -5em;
+}
+.docContainer {
+  background-color: #40E0D0;
+  color: black;
+  display: block;
+  margin: 0 auto;
+  width: 11em;
+  height: 11em;
+  z-index: 1000;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.docContainer:hover {
+  background-color: #20b0a2;
+}
+.docContent {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.docContent i {
+  font-size: 3em;
+}
+.docUnavailable {
+  background-color: grey;
+  cursor: not-allowed;
+}
+.docUnavailable:hover {
+  background-color: grey;
+}
+
+/*----- Group members section -----*/
+#memberSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  padding: 0 15%;
+}
+#memberTitle {
+  grid-column: 1/5;
+}
+.memberProfile {
+  text-align: center;
+}
+.memberProfile img {
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+  width: 11em;
+  height: 11em;
+}
+
+/*----- Company section -----*/
+#companySection {
+  background-image: url("./Images/xboBanner.jpg");
+}
+#companySection div div img {
+  width: 100%;
+}
+
+/*----- Footer -----*/
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 1em 15%;
+}

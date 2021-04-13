@@ -1,0 +1,107 @@
+@media only screen and (max-width: 750px) {
+
+  /* General styles */
+  h5 {
+    font-size: 1.3em;
+  }
+  .sectionMarginBottom {
+    margin-bottom: 2em;
+  }
+  .button {
+    font-size: 1em;
+  }
+
+  /*----- Title section -----*/
+  .titleContainer {
+    font-size: 1em;
+  }
+
+  /*----- Documentation section -----*/
+  #docSection {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 1em;
+    margin-top: -6em;
+  }
+  .docContainer {
+    margin: 0 auto 1em auto;
+    width: 12em;
+    height: 12em;
+  }
+  .docContent {
+    font-size: 1.3em;
+  }
+  @media only screen and (max-width: 500px) {
+    #docSection {
+      margin-top: -5em;
+    }
+    .docContainer {
+      width: 10em;
+      height: 10em;
+    }
+    .docContent {
+      font-size: 1em;
+    }
+  }
+
+  /*----- Group members section -----*/
+  #memberSection {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    padding: 0 1em;
+  }
+  #memberTitle {
+    grid-column: 1/3;
+    padding-left: 4em;
+  }
+  @media only screen and (max-width: 700px) {
+    #memberTitle {
+      padding-left: 2em;
+    }
+  }
+  .memberProfile {
+    margin: 0 auto 1em auto;
+  }
+  .memberProfile p {
+    font-size: 1em;
+  }
+  .memberProfile img {
+    padding: 0;
+    width: 12em;
+    height: 12em;
+  }
+  @media only screen and (max-width: 500px) {
+    .memberProfile img {
+      width: 10em;
+      height: 10em;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+  /*----- Company section -----*/
+  .centerContainer {
+    width: 80%;
+  }
+  #companySection .flexContainer {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  #companySection .flexContainer div {
+    width: 100%;
+  }
+  #companySection div div img {
+    width: 50%;
+  }
+  #companySection div div h5 {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+  }
+  }
+
+  /*----- Footer -----*/
+  footer {
+    font-size: 0.8em;
+    padding: 1em 3em;
+  }
+
+}
