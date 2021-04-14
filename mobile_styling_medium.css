@@ -7,6 +7,13 @@
     font-size: 1em;
   }
 
+  /*----- Title section -----*/
+  @media only screen and (max-width: 690px) {
+    .titleContainer {
+      font-size: 1.1em;
+    }
+  }
+
   /*----- Documentation section -----*/
   #docSection {
     grid-template-columns: 1fr 1fr;
