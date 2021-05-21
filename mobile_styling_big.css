@@ -37,6 +37,22 @@
     font-size: 2em;
   }
 
+  /*----- Project explanation section -----*/
+  #detailSection {
+    padding: 0 1em;
+  }
+  #detailTitle {
+    padding-left: 2em;
+  }
+  @media only screen and (max-width: 950px) {
+    #detailTitle {
+      padding-left: 1em;
+    }
+  }
+  #detailSection p {
+    padding: 0 3em;
+  }
+
   /*----- Group members section -----*/
   #memberSection {
     grid-template-columns: 1fr 1fr 1fr 1fr;

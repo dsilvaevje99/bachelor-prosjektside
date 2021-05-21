@@ -41,6 +41,11 @@
     font-size: 1em;
   }
 
+  /*----- Project explanation section -----*/
+  #detailSection p {
+    padding: 0 1em;
+  }
+
   /*----- Group members section -----*/
   #memberSection {
     grid-template-columns: 1fr 1fr;

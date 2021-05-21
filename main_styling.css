@@ -124,6 +124,20 @@ html {
   opacity: 1;
 }
 
+/*----- Project explanation section -----*/
+#detailSection {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  padding: 0 15%;
+}
+#detailTitle {
+  font-size: 2em;
+}
+#detailSection p {
+  line-height: 175%;
+}
+
 /*----- Group members section -----*/
 #memberSection {
   display: grid;
